@@ -132,10 +132,10 @@
   .section-head h2{font-size:32px;margin-bottom:12px}
   .section-head p{color:var(--muted);font-size:15px}
   .niche-cols{display:grid;grid-template-columns:1fr 1fr;gap:24px}
-  .niche-card{background:#fff;border-radius:18px;padding:28px;border:1px solid var(--line);box-shadow:0 10px 28px rgba(10,35,66,.06)}
+  .niche-card{background:#fff;border-radius:18px;padding:28px;border:1px solid var(--line);box-shadow:0 10px 28px rgba(10,35,66,.06);min-width:0;overflow:hidden}
   .niche-card h3{font-size:20px;margin-bottom:16px;display:flex;align-items:center;gap:10px}
   .niche-card h3 i{color:var(--blue)}
-  .niche-tags{overflow:hidden;position:relative;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+  .niche-tags{overflow:hidden;position:relative;width:100%;min-width:0;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
   .tag-scroll{display:flex;gap:8px;width:max-content;animation:niche-slide 22s linear infinite}
   .niche-tags:hover .tag-scroll{animation-play-state:paused}
   .tag-track{display:flex;gap:8px;flex-shrink:0}
